@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+
+ }
+ .about_page{
+    background-color: rgba(232, 226, 226, 0.34);
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+ }
+ .insta_logo{
+    margin: 15px;
+ }
+ .photo{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+ }
+ .photo::after{
+    content: '';
+    height: 134px;
+    width: 134px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    padding: 3px;
+    transform: translate(0,-2.5px);
+    background-color: red;
+    background-image: conic-gradient(red,blue,red,blue,red);
+    /* translate: -50% -50%; */
+ }
+ .photo::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+ }
+ .info{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+ }
+ .name{
+    font-weight: 800;
+    padding: 0.5rem;
+ }
+ .idd{
+    font-weight: 100;
+    color: rgb(101, 100, 100);
+ }
+ .stats{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding-top:2rem ;
+ }
+ .posts,.followers,.following{
+    display: flex;
+    flex-flow: column nowrap;
+ }
+ .postst,.follot,.follit{
+    font-weight: 100;
+    color: rgb(101, 100, 100);
+ }
+ .home{
+    display:flex;
+    flex-direction: row;
+    padding: 0.5rem;
+ }
+ .search{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem
+ }
+ .reels{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem
+ } .shopping{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem
+ }
+ .text{
+    padding: 1rem;
+ }
+
+
+ .search1 input{
+    height: 50px;
+    width: 300px;
+    /* background-color: gray; */
+    border-radius: 0.7rem;
+    color: black;
+    padding-left: 100px;
+    margin-bottom: 50px
+   
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ font-family: "Open Sans", sans-serif;
+
+
+
+ .AJAY{
+    display: flex;
+
+.pic1{
+    display: flex
+    flex-flow : row nowrap;
+
+}
+.circle{
+   
+   margin-left: 1000px;
+}
+
+.feed{
+   columns: 300px;
+   gap: 3rem;
+}
+
+.f1{
+   display: flex;
+   flex-flow: column nowrap;
+   margin-bottom: 10px;
+   
+}
+.base{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: left;
+}
